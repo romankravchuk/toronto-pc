@@ -2,7 +2,7 @@
 
 <DBMODEL Version="1.4" TYPE="PostgreSQL">
 
-<MODELSETTINGS MDDVERSION="1.2.10 (build 642)" ModelProject="" ModelName="database_scheme" ModelCompany="" ModelAuthor="" ModelCopyright="" ModelVersion="" ModelVersionAI="0" ModelCreated="2022-09-15 15:42:47" ModelUpdated="2022-09-22 22:21:50" Description="" Annotation="" ZoomFac="150.00" XPos="0" YPos="0" PrintLink="" GenSettings="object GenSettings1: TGenSettings\n  TextCharCase = tccMixed\n  ModelCheck = True\n  DropIfExists = True\n  ISQL = False\n  DBOptions = [dbgoCreate, dbgoBeginScript, dbgoEndScript]\n  ViewOptions = [viewgoCreate, viewgoCreateRule]\n  SPOptions = [spgoCreate]\n  TableOptions = [tblgoCreate, tblgoBeginScript, tblgoEndScript, tblgoComment, tblgoCreatePK, tblgoCreateFK, tblgoCreateIndex, tblgoCreateRule, tblgoCreateTrigger, tblgoCreateCHECK]\n  OwnerOptions = [owngoSchema, owngoTable, owngoView, owngoSP, owngoSequence, owngoUDT]\n  ACLOptions = [aclgoSchema, aclgoTable, aclgoView, aclgoSP, aclgoSequence]\n  RoleCreate = True\n  RoleWhenCreate = rocrInScript\n  SQLTypeNames = False\nend\n" DisplaySettings="object DisplaySettings1: TDisplaySettings\n  ObjectsDisplay = [edoColumns, edoInhColumns, edoIndices, edoConstraints, edoTriggers, edoRules, edoColTypes, edoFKs, rdoRefName, spdoParameters, spdoResult, spdoParamTypes, spdoParamKind, vdoAttributes, vdoTargets, vdoRules]\n  Color = clWhite\n  ShowIcons = True\n  SnapGrid = True\n  DisplaySnap = True\n  SnapSize = 10\n  ShowPages = True\n  EntityFillColor = clWhite\n  EntityLineColor = clNavy\n  SPFillColor = 13499135\n  SPLineColor = clNavy\n  ViewFillColor = 3329434\n  ViewLineColor = clNavy\n  RefNotation = 0\n  RefColor = clNavy\n  RefLabelColor = clWhite\n  MinimapShapesStyle = mmssFillAndBorder\n  MinimapVisibleAreaStyle = mmvasBitmapShading\n  MinimapBackColor = clWhite\nend\n" DefaultDelete="3" DefaultUpdate="3" DefaultDataType="23" DefaultSchemaID="0" FKPrefix="" QueryDelimiter=";" DBQuoteCharacter="\A" EncloseNames="1" HPageCount="5" VPageCount="5" />
+<MODELSETTINGS MDDVERSION="1.2.10 (build 642)" ModelProject="" ModelName="database_scheme" ModelCompany="" ModelAuthor="" ModelCopyright="" ModelVersion="" ModelVersionAI="0" ModelCreated="2022-09-15 15:42:47" ModelUpdated="2022-09-22 22:29:19" Description="" Annotation="" ZoomFac="100.00" XPos="0" YPos="0" PrintLink="object MDDPrinterLink: TcxImageReportLink\n  Active = True\n  Component = fmPrintImage.imPrint\n  DesignerCaption = \aFormat Output\a\n  PrinterPage.DMPaper = 9\n  PrinterPage.Footer = 200\n  PrinterPage.Header = 200\n  PrinterPage.Margins.Bottom = 500\n  PrinterPage.Margins.Left = 500\n  PrinterPage.Margins.Right = 500\n  PrinterPage.Margins.Top = 500\n  PrinterPage.Orientation = poLandscape\n  PrinterPage.PageFooter.CenterTitle.Strings = (\n    \a\a)\n  PrinterPage.PageFooter.LeftTitle.Strings = (\n    \a\a)\n  PrinterPage.PageFooter.RightTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.CenterTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.LeftTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.RightTitle.Strings = (\n    \a\a)\n  PrinterPage.PageOrder = poDownThenOver\n  PrinterPage.PageSize.X = 8300\n  PrinterPage.PageSize.Y = 11700\n  PrinterPage._dxMeasurementUnits_ = 1\n  PrinterPage._dxLastMU_ = 1\n  ReportDocument.CreationDate = 44826.933392534720000000\n  Center = True\n  TransparentColor = clWhite\n  BuiltInReportLink = True\nend\n" GenSettings="object GenSettings1: TGenSettings\n  TextCharCase = tccMixed\n  ModelCheck = True\n  DropIfExists = True\n  ISQL = False\n  DBOptions = [dbgoCreate, dbgoBeginScript, dbgoEndScript]\n  ViewOptions = [viewgoCreate, viewgoCreateRule]\n  SPOptions = [spgoCreate]\n  TableOptions = [tblgoCreate, tblgoBeginScript, tblgoEndScript, tblgoComment, tblgoCreatePK, tblgoCreateFK, tblgoCreateIndex, tblgoCreateRule, tblgoCreateTrigger, tblgoCreateCHECK]\n  OwnerOptions = [owngoSchema, owngoTable, owngoView, owngoSP, owngoSequence, owngoUDT]\n  ACLOptions = [aclgoSchema, aclgoTable, aclgoView, aclgoSP, aclgoSequence]\n  RoleCreate = True\n  RoleWhenCreate = rocrInScript\n  SQLTypeNames = False\nend\n" DisplaySettings="object DisplaySettings1: TDisplaySettings\n  ObjectsDisplay = [edoColumns, edoInhColumns, edoIndices, edoConstraints, edoTriggers, edoRules, edoColTypes, edoFKs, rdoRefName, spdoParameters, spdoResult, spdoParamTypes, spdoParamKind, vdoAttributes, vdoTargets, vdoRules]\n  Color = clWhite\n  ShowIcons = True\n  SnapGrid = True\n  DisplaySnap = True\n  SnapSize = 10\n  ShowPages = True\n  EntityFillColor = clWhite\n  EntityLineColor = clNavy\n  SPFillColor = 13499135\n  SPLineColor = clNavy\n  ViewFillColor = 3329434\n  ViewLineColor = clNavy\n  RefNotation = 0\n  RefColor = clNavy\n  RefLabelColor = clWhite\n  MinimapShapesStyle = mmssFillAndBorder\n  MinimapVisibleAreaStyle = mmvasBitmapShading\n  MinimapBackColor = clWhite\nend\n" DefaultDelete="3" DefaultUpdate="3" DefaultDataType="23" DefaultSchemaID="0" FKPrefix="" QueryDelimiter=";" DBQuoteCharacter="\A" EncloseNames="1" HPageCount="5" VPageCount="5" />
 
 <DATABASE Name="toronto" CharacterSet="" Collate="" CType="" Tablespace="" Owner="" Template="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="0" />
 
@@ -83,7 +83,7 @@
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10044" Name="products_images" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1092">
+<COMPOSITE ID="10044" Name="reviews_images" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1092">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
@@ -257,7 +257,7 @@
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1074" Name="products" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="790" YPos="110" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1074" Name="products" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="780" YPos="110" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
 			<COLUMN ID="121" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 			<COLUMN ID="122" Name="discount_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
@@ -289,7 +289,7 @@
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1076" Name="tags" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="960" YPos="10" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1076" Name="tags" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="890" YPos="20" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
 			<COLUMN ID="128" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 			<COLUMN ID="129" Name="name" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
@@ -312,7 +312,7 @@
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1078" Name="products_tags" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="780" YPos="20" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1078" Name="products_tags" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="710" YPos="20" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
 			<COLUMN ID="130" Name="tag_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 			<COLUMN ID="131" Name="product_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
@@ -409,7 +409,7 @@
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1092" Name="products_images" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="960" YPos="100" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1092" Name="products_images" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="820" YPos="300" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
 			<COLUMN ID="150" Name="id" Pos="0" Datatype="2950" Type="uuid" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 			<COLUMN ID="151" Name="product_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
@@ -433,7 +433,7 @@
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1094" Name="products_images" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="80" YPos="360" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1094" Name="reviews_images" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="80" YPos="360" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
 			<COLUMN ID="1095" Name="id" Pos="0" Datatype="2950" Type="uuid" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 			<COLUMN ID="1096" Name="review_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
@@ -443,14 +443,14 @@
 		<REFERENCE_END ID="1099" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="1098" Name="" Kind="2" Expression="" ReferenceIndex="1101" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1098" Name="" Kind="2" Expression="" ReferenceIndex="1103" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
 					<CONSTRAINTCOLUMN ID="1095" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1101" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1098" FillFactor="0" Comments="">
+		<INDEX ID="1103" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1098" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
