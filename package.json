@@ -1,0 +1,25 @@
+{
+  "name": "toronto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/static/scss/style.scss ./src/static/css/style.css",
+    "dev": "./src/manage.py runserver",
+    "tests": "./src/manage.py test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romankravchuk/toronto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romankravchuk/toronto/issues"
+  },
+  "homepage": "https://github.com/romankravchuk/toronto#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
