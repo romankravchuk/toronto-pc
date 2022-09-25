@@ -6,7 +6,10 @@
   "scripts": {
     "sass": "sass --watch ./src/static/scss/style.scss ./src/static/css/style.css",
     "dev": "./src/manage.py runserver",
-    "tests": "./src/manage.py test"
+    "tests": "./src/manage.py test",
+    "black": "black ./src",
+    "flake8": "flake8 --max-line-length 120 ./src",
+    "dbmigrate": "./src/manage.py makemigrations && ./src/manage.py migrate"
   },
   "repository": {
     "type": "git",
