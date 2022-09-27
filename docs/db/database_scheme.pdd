@@ -2,7 +2,7 @@
 
 <DBMODEL Version="1.4" TYPE="PostgreSQL">
 
-<MODELSETTINGS MDDVERSION="1.2.10 (build 642)" ModelProject="" ModelName="database_scheme" ModelCompany="" ModelAuthor="" ModelCopyright="" ModelVersion="" ModelVersionAI="0" ModelCreated="2022-09-15 15:42:47" ModelUpdated="2022-09-22 22:29:19" Description="" Annotation="" ZoomFac="100.00" XPos="0" YPos="0" PrintLink="object MDDPrinterLink: TcxImageReportLink\n  Active = True\n  Component = fmPrintImage.imPrint\n  DesignerCaption = \aFormat Output\a\n  PrinterPage.DMPaper = 9\n  PrinterPage.Footer = 200\n  PrinterPage.Header = 200\n  PrinterPage.Margins.Bottom = 500\n  PrinterPage.Margins.Left = 500\n  PrinterPage.Margins.Right = 500\n  PrinterPage.Margins.Top = 500\n  PrinterPage.Orientation = poLandscape\n  PrinterPage.PageFooter.CenterTitle.Strings = (\n    \a\a)\n  PrinterPage.PageFooter.LeftTitle.Strings = (\n    \a\a)\n  PrinterPage.PageFooter.RightTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.CenterTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.LeftTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.RightTitle.Strings = (\n    \a\a)\n  PrinterPage.PageOrder = poDownThenOver\n  PrinterPage.PageSize.X = 8300\n  PrinterPage.PageSize.Y = 11700\n  PrinterPage._dxMeasurementUnits_ = 1\n  PrinterPage._dxLastMU_ = 1\n  ReportDocument.CreationDate = 44826.933392534720000000\n  Center = True\n  TransparentColor = clWhite\n  BuiltInReportLink = True\nend\n" GenSettings="object GenSettings1: TGenSettings\n  TextCharCase = tccMixed\n  ModelCheck = True\n  DropIfExists = True\n  ISQL = False\n  DBOptions = [dbgoCreate, dbgoBeginScript, dbgoEndScript]\n  ViewOptions = [viewgoCreate, viewgoCreateRule]\n  SPOptions = [spgoCreate]\n  TableOptions = [tblgoCreate, tblgoBeginScript, tblgoEndScript, tblgoComment, tblgoCreatePK, tblgoCreateFK, tblgoCreateIndex, tblgoCreateRule, tblgoCreateTrigger, tblgoCreateCHECK]\n  OwnerOptions = [owngoSchema, owngoTable, owngoView, owngoSP, owngoSequence, owngoUDT]\n  ACLOptions = [aclgoSchema, aclgoTable, aclgoView, aclgoSP, aclgoSequence]\n  RoleCreate = True\n  RoleWhenCreate = rocrInScript\n  SQLTypeNames = False\nend\n" DisplaySettings="object DisplaySettings1: TDisplaySettings\n  ObjectsDisplay = [edoColumns, edoInhColumns, edoIndices, edoConstraints, edoTriggers, edoRules, edoColTypes, edoFKs, rdoRefName, spdoParameters, spdoResult, spdoParamTypes, spdoParamKind, vdoAttributes, vdoTargets, vdoRules]\n  Color = clWhite\n  ShowIcons = True\n  SnapGrid = True\n  DisplaySnap = True\n  SnapSize = 10\n  ShowPages = True\n  EntityFillColor = clWhite\n  EntityLineColor = clNavy\n  SPFillColor = 13499135\n  SPLineColor = clNavy\n  ViewFillColor = 3329434\n  ViewLineColor = clNavy\n  RefNotation = 0\n  RefColor = clNavy\n  RefLabelColor = clWhite\n  MinimapShapesStyle = mmssFillAndBorder\n  MinimapVisibleAreaStyle = mmvasBitmapShading\n  MinimapBackColor = clWhite\nend\n" DefaultDelete="3" DefaultUpdate="3" DefaultDataType="23" DefaultSchemaID="0" FKPrefix="" QueryDelimiter=";" DBQuoteCharacter="\A" EncloseNames="1" HPageCount="5" VPageCount="5" />
+<MODELSETTINGS MDDVERSION="1.2.10 (build 642)" ModelProject="" ModelName="database_scheme" ModelCompany="" ModelAuthor="" ModelCopyright="" ModelVersion="" ModelVersionAI="0" ModelCreated="2022-09-15 15:42:47" ModelUpdated="2022-09-27 22:06:37" Description="" Annotation="" ZoomFac="150.00" XPos="0" YPos="0" PrintLink="object MDDPrinterLink: TcxImageReportLink\n  Active = True\n  Component = fmPrintImage.imPrint\n  DesignerCaption = \aFormat Output\a\n  PrinterPage.DMPaper = 9\n  PrinterPage.Footer = 200\n  PrinterPage.Header = 200\n  PrinterPage.Margins.Bottom = 500\n  PrinterPage.Margins.Left = 500\n  PrinterPage.Margins.Right = 500\n  PrinterPage.Margins.Top = 500\n  PrinterPage.Orientation = poLandscape\n  PrinterPage.PageFooter.CenterTitle.Strings = (\n    \a\a)\n  PrinterPage.PageFooter.LeftTitle.Strings = (\n    \a\a)\n  PrinterPage.PageFooter.RightTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.CenterTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.LeftTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.RightTitle.Strings = (\n    \a\a)\n  PrinterPage.PageOrder = poDownThenOver\n  PrinterPage.PageSize.X = 8300\n  PrinterPage.PageSize.Y = 11700\n  PrinterPage._dxMeasurementUnits_ = 1\n  PrinterPage._dxLastMU_ = 1\n  ReportDocument.CreationDate = 44826.933392534720000000\n  Center = True\n  TransparentColor = clWhite\n  BuiltInReportLink = True\nend\n" GenSettings="object GenSettings1: TGenSettings\n  TextCharCase = tccMixed\n  ModelCheck = True\n  DropIfExists = True\n  ISQL = False\n  DBOptions = [dbgoCreate, dbgoBeginScript, dbgoEndScript]\n  ViewOptions = [viewgoCreate, viewgoCreateRule]\n  SPOptions = [spgoCreate]\n  TableOptions = [tblgoCreate, tblgoBeginScript, tblgoEndScript, tblgoComment, tblgoCreatePK, tblgoCreateFK, tblgoCreateIndex, tblgoCreateRule, tblgoCreateTrigger, tblgoCreateCHECK]\n  OwnerOptions = [owngoSchema, owngoTable, owngoView, owngoSP, owngoSequence, owngoUDT]\n  ACLOptions = [aclgoSchema, aclgoTable, aclgoView, aclgoSP, aclgoSequence]\n  RoleCreate = True\n  RoleWhenCreate = rocrInScript\n  SQLTypeNames = False\nend\n" DisplaySettings="object DisplaySettings1: TDisplaySettings\n  ObjectsDisplay = [edoColumns, edoInhColumns, edoIndices, edoConstraints, edoTriggers, edoRules, edoColTypes, edoFKs, rdoRefName, spdoParameters, spdoResult, spdoParamTypes, spdoParamKind, vdoAttributes, vdoTargets, vdoRules]\n  Color = clBlack\n  ShowIcons = True\n  SnapGrid = False\n  DisplaySnap = False\n  SnapSize = 10\n  ShowPages = False\n  EntityFillColor = 16777200\n  EntityLineColor = 16775416\n  SPFillColor = 13499135\n  SPLineColor = 16449525\n  ViewFillColor = 4678655\n  ViewLineColor = 16449525\n  RefNotation = 0\n  RefColor = 16449525\n  RefLabelColor = clWhite\n  MinimapShapesStyle = mmssFillAndBorder\n  MinimapVisibleAreaStyle = mmvasBitmapShading\n  MinimapBackColor = clBlack\nend\n" DefaultDelete="3" DefaultUpdate="3" DefaultDataType="23" DefaultSchemaID="0" FKPrefix="" QueryDelimiter=";" DBQuoteCharacter="\A" EncloseNames="1" HPageCount="5" VPageCount="5" />
 
 <DATABASE Name="toronto" CharacterSet="" Collate="" CType="" Tablespace="" Owner="" Template="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="0" />
 
@@ -23,71 +23,63 @@
 </DOMAINS>
 
 <COMPOSITES>
-<COMPOSITE ID="10024" Name="users" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1058">
+<COMPOSITE ID="10052" Name="configurations_components" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1147">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10026" Name="groups" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1062">
+<COMPOSITE ID="10054" Name="components" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1151">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10027" Name="permissions" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1064">
+<COMPOSITE ID="10055" Name="configurations" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1154">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10028" Name="users_groups" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1066">
+<COMPOSITE ID="10056" Name="orders" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1157">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10029" Name="groups_permissions" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1067">
+<COMPOSITE ID="10057" Name="orders_configurations" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1159">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10030" Name="users_permissions" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1068">
+<COMPOSITE ID="10059" Name="users" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1174">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10031" Name="orders" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1069">
+<COMPOSITE ID="10063" Name="users_permissions" SchemaName="public" OwnerName="" Comments="" MasterTableOID="0">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10033" Name="products" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1074">
+<COMPOSITE ID="10064" Name="groups_permissions" SchemaName="public" OwnerName="" Comments="" MasterTableOID="0">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10034" Name="tags" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1076">
+<COMPOSITE ID="10065" Name="users_groups" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1187">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10035" Name="products_tags" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1078">
+<COMPOSITE ID="10066" Name="permissions" SchemaName="public" OwnerName="" Comments="" MasterTableOID="0">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10037" Name="orders_products" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1080">
+<COMPOSITE ID="10067" Name="groups" SchemaName="public" OwnerName="" Comments="" MasterTableOID="0">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10038" Name="users_carts" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1083">
+<COMPOSITE ID="10068" Name="specifications" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1204">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10039" Name="carts_products" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1085">
+<COMPOSITE ID="10069" Name="components_images" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1206">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10040" Name="users_favorites" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1086">
+<COMPOSITE ID="10070" Name="components_specifications" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1208">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
-<COMPOSITE ID="10042" Name="reviews" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1089">
-	<COLUMNS>
-	</COLUMNS>
-</COMPOSITE>
-<COMPOSITE ID="10044" Name="reviews_images" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1092">
-	<COLUMNS>
-	</COLUMNS>
-</COMPOSITE>
-<COMPOSITE ID="10045" Name="products_images" SchemaName="public" OwnerName="" Comments="" MasterTableOID="0">
+<COMPOSITE ID="10071" Name="orders_employees" SchemaName="public" OwnerName="" Comments="" MasterTableOID="1209">
 	<COLUMNS>
 	</COLUMNS>
 </COMPOSITE>
@@ -104,383 +96,321 @@
 
 <METADATA>
 <ENTITIES>
-<ENTITY ID="1058" Name="users" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="350" YPos="120" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1147" Name="configurations_components" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="921" YPos="0" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="77" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="78" Name="email" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="79" Name="phone" Pos="2" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="80" Name="password" Pos="3" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="81" Name="first_name" Pos="4" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="82" Name="last_name" Pos="5" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="1098" Name="profile_image" Pos="6" Datatype="602" Type="path" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="90" Name="active" Pos="7" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="83" Name="address" Pos="8" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="88" Name="is_staff" Pos="9" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="89" Name="date_joined" Pos="10" Datatype="1184" Type="timestamp with time zone" Width="-1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1130" Name="configuration_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1131" Name="component_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1132" Name="count" Pos="2" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1135" Name="current_price" Pos="3" Datatype="790" Type="money" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+	</COLUMNS>
+	<REFERENCES_END>
+		<REFERENCE_END ID="1202" />
+		<REFERENCE_END ID="1206" />
+	</REFERENCES_END>
+</ENTITY>
+<ENTITY ID="1151" Name="components" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="923" YPos="140" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+	<COLUMNS>
+			<COLUMN ID="1136" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1137" Name="name" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1138" Name="category" Pos="2" Datatype="1042" Type="char" Width="1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1139" Name="is_avaiable" Pos="3" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1140" Name="price" Pos="4" Datatype="790" Type="money" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_BEGIN>
-		<REFERENCE_BEGIN ID="117" />
-		<REFERENCE_BEGIN ID="123" />
-		<REFERENCE_BEGIN ID="126" />
-		<REFERENCE_BEGIN ID="127" />
-		<REFERENCE_BEGIN ID="145" />
-		<REFERENCE_BEGIN ID="149" />
-		<REFERENCE_BEGIN ID="151" />
+		<REFERENCE_BEGIN ID="1202" />
+		<REFERENCE_BEGIN ID="1231" />
+		<REFERENCE_BEGIN ID="1233" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="114" Name="" Kind="2" Expression="" ReferenceIndex="1102" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1201" Name="" Kind="2" Expression="" ReferenceIndex="1153" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="77" />
+					<CONSTRAINTCOLUMN ID="1136" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1102" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="114" FillFactor="0" Comments="">
+		<INDEX ID="1153" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1201" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1062" Name="groups" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="10" YPos="220" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1154" Name="configurations" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="748" YPos="93" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="93" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="94" Name="name" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1145" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1146" Name="user_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1147" Name="name" Pos="2" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1148" Name="summary" Pos="3" Datatype="25" Type="text" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1178" Name="price" Pos="4" Datatype="790" Type="money" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_BEGIN>
-		<REFERENCE_BEGIN ID="119" />
-		<REFERENCE_BEGIN ID="122" />
+		<REFERENCE_BEGIN ID="1206" />
+		<REFERENCE_BEGIN ID="1208" />
 	</REFERENCES_BEGIN>
+	<REFERENCES_END>
+		<REFERENCE_END ID="1211" />
+	</REFERENCES_END>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="115" Name="" Kind="2" Expression="" ReferenceIndex="1063" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1205" Name="" Kind="2" Expression="" ReferenceIndex="1178" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="93" />
+					<CONSTRAINTCOLUMN ID="1145" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1063" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="115" FillFactor="0" Comments="">
+		<INDEX ID="1178" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1205" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1064" Name="permissions" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="10" YPos="80" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1157" Name="orders" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="371" YPos="270" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="95" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="96" Name="name" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1149" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1150" Name="user_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1151" Name="address" Pos="2" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1152" Name="prepaid" Pos="3" Datatype="790" Type="money" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1153" Name="status" Pos="4" Datatype="1042" Type="char" Width="1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1154" Name="date_created" Pos="5" Datatype="1184" Type="timestamp with time zone" Width="-1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1155" Name="date_closed" Pos="6" Datatype="1184" Type="timestamp with time zone" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1156" Name="date_canceled" Pos="7" Datatype="1184" Type="timestamp with time zone" Width="-1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1157" Name="price" Pos="8" Datatype="790" Type="money" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_BEGIN>
-		<REFERENCE_BEGIN ID="120" />
-		<REFERENCE_BEGIN ID="121" />
+		<REFERENCE_BEGIN ID="1209" />
+		<REFERENCE_BEGIN ID="1237" />
 	</REFERENCES_BEGIN>
+	<REFERENCES_END>
+		<REFERENCE_END ID="1227" />
+	</REFERENCES_END>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="116" Name="" Kind="2" Expression="" ReferenceIndex="1065" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1207" Name="" Kind="2" Expression="" ReferenceIndex="1158" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="95" />
+					<CONSTRAINTCOLUMN ID="1149" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1065" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="116" FillFactor="0" Comments="">
+		<INDEX ID="1158" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1207" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1066" Name="users_groups" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="150" YPos="270" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1159" Name="orders_configurations" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="662" YPos="231" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="97" Name="user_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="98" Name="group_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1158" Name="configuration_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1159" Name="order_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_END>
-		<REFERENCE_END ID="122" />
-		<REFERENCE_END ID="123" />
+		<REFERENCE_END ID="1208" />
+		<REFERENCE_END ID="1209" />
 	</REFERENCES_END>
 </ENTITY>
-<ENTITY ID="1067" Name="groups_permissions" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="150" YPos="150" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1174" Name="users" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="515" YPos="0" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="99" Name="group_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="100" Name="permission_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-	</COLUMNS>
-	<REFERENCES_END>
-		<REFERENCE_END ID="119" />
-		<REFERENCE_END ID="120" />
-	</REFERENCES_END>
-</ENTITY>
-<ENTITY ID="1068" Name="users_permissions" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="180" YPos="10" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
-	<COLUMNS>
-			<COLUMN ID="101" Name="user_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="102" Name="permission_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-	</COLUMNS>
-	<REFERENCES_END>
-		<REFERENCE_END ID="117" />
-		<REFERENCE_END ID="121" />
-	</REFERENCES_END>
-</ENTITY>
-<ENTITY ID="1069" Name="orders" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="500" YPos="390" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
-	<COLUMNS>
-			<COLUMN ID="103" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="104" Name="client_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="105" Name="staff_id" Pos="2" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="113" Name="address" Pos="3" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="114" Name="prepaid" Pos="4" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="115" Name="price" Pos="5" Datatype="790" Type="money" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="116" Name="status" Pos="6" Datatype="1042" Type="char" Width="1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="117" Name="type" Pos="7" Datatype="1042" Type="char" Width="1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="118" Name="date_created" Pos="8" Datatype="1184" Type="timestamp with time zone" Width="-1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="119" Name="date_closed" Pos="9" Datatype="1184" Type="timestamp with time zone" Width="-1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="120" Name="date_canceled" Pos="10" Datatype="1184" Type="timestamp with time zone" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1169" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1170" Name="first_name" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1171" Name="last_name" Pos="2" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1172" Name="email" Pos="3" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1173" Name="phone" Pos="4" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1174" Name="address" Pos="5" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1175" Name="date_joined" Pos="6" Datatype="1184" Type="timestamp with time zone" Width="-1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1176" Name="last_login" Pos="7" Datatype="1184" Type="timestamp with time zone" Width="-1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1177" Name="is_active" Pos="8" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_BEGIN>
-		<REFERENCE_BEGIN ID="142" />
-		<REFERENCE_BEGIN ID="152" />
+		<REFERENCE_BEGIN ID="1211" />
+		<REFERENCE_BEGIN ID="1212" />
+		<REFERENCE_BEGIN ID="1217" />
+		<REFERENCE_BEGIN ID="1227" />
+		<REFERENCE_BEGIN ID="1235" />
 	</REFERENCES_BEGIN>
-	<REFERENCES_END>
-		<REFERENCE_END ID="126" />
-		<REFERENCE_END ID="127" />
-	</REFERENCES_END>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="125" Name="" Kind="2" Expression="" ReferenceIndex="1073" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1210" Name="" Kind="2" Expression="" ReferenceIndex="1177" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="103" />
+					<CONSTRAINTCOLUMN ID="1169" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1073" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="125" FillFactor="0" Comments="">
+		<INDEX ID="1177" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1210" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1074" Name="products" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="780" YPos="110" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1179" Name="users_permissions" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="309" YPos="33" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="121" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="122" Name="discount_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="123" Name="name" Pos="2" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="124" Name="summary" Pos="3" Datatype="25" Type="text" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="125" Name="category" Pos="4" Datatype="1042" Type="char" Width="1" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="126" Name="price" Pos="5" Datatype="790" Type="money" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="127" Name="is_in_stock" Pos="6" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1179" Name="user_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1180" Name="permission_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+	</COLUMNS>
+	<REFERENCES_END>
+		<REFERENCE_END ID="1212" />
+		<REFERENCE_END ID="1225" />
+	</REFERENCES_END>
+</ENTITY>
+<ENTITY ID="1183" Name="groups_permissions" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="0" YPos="92" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+	<COLUMNS>
+			<COLUMN ID="1183" Name="group_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1183" Name="permission_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+	</COLUMNS>
+	<REFERENCES_END>
+		<REFERENCE_END ID="1223" />
+		<REFERENCE_END ID="1224" />
+	</REFERENCES_END>
+</ENTITY>
+<ENTITY ID="1187" Name="users_groups" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="308" YPos="99" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+	<COLUMNS>
+			<COLUMN ID="1186" Name="user_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1187" Name="group_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+	</COLUMNS>
+	<REFERENCES_END>
+		<REFERENCE_END ID="1217" />
+		<REFERENCE_END ID="1226" />
+	</REFERENCES_END>
+</ENTITY>
+<ENTITY ID="1190" Name="permissions" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="175" YPos="0" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+	<COLUMNS>
+			<COLUMN ID="1190" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1190" Name="name" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_BEGIN>
-		<REFERENCE_BEGIN ID="136" />
-		<REFERENCE_BEGIN ID="140" />
-		<REFERENCE_BEGIN ID="147" />
-		<REFERENCE_BEGIN ID="150" />
-		<REFERENCE_BEGIN ID="1100" />
+		<REFERENCE_BEGIN ID="1224" />
+		<REFERENCE_BEGIN ID="1225" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="131" Name="" Kind="2" Expression="" ReferenceIndex="1075" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1193" Name="" Kind="2" Expression="" ReferenceIndex="1203" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="121" />
+					<CONSTRAINTCOLUMN ID="1190" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1075" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="131" FillFactor="0" Comments="">
+		<INDEX ID="1203" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1193" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1076" Name="tags" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="890" YPos="20" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1196" Name="groups" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="176" YPos="178" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="128" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="129" Name="name" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1196" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1196" Name="name" Pos="1" Datatype="1043" Type="varchar" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_BEGIN>
-		<REFERENCE_BEGIN ID="134" />
+		<REFERENCE_BEGIN ID="1223" />
+		<REFERENCE_BEGIN ID="1226" />
 	</REFERENCES_BEGIN>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="132" Name="" Kind="2" Expression="" ReferenceIndex="1077" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1199" Name="" Kind="2" Expression="" ReferenceIndex="1202" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="128" />
+					<CONSTRAINTCOLUMN ID="1196" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1077" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="132" FillFactor="0" Comments="">
+		<INDEX ID="1202" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1199" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1078" Name="products_tags" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="710" YPos="20" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1204" Name="specifications" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1146" YPos="214" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="130" Name="tag_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="131" Name="product_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-	</COLUMNS>
-	<REFERENCES_END>
-		<REFERENCE_END ID="134" />
-		<REFERENCE_END ID="136" />
-	</REFERENCES_END>
-</ENTITY>
-<ENTITY ID="1080" Name="orders_products" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="600" YPos="260" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
-	<COLUMNS>
-			<COLUMN ID="135" Name="order_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="136" Name="product_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-	</COLUMNS>
-	<REFERENCES_END>
-		<REFERENCE_END ID="140" />
-		<REFERENCE_END ID="142" />
-	</REFERENCES_END>
-</ENTITY>
-<ENTITY ID="1083" Name="users_carts" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="390" YPos="20" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
-	<COLUMNS>
-			<COLUMN ID="138" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="139" Name="user_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1197" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1198" Name="name" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_BEGIN>
-		<REFERENCE_BEGIN ID="146" />
+		<REFERENCE_BEGIN ID="1234" />
 	</REFERENCES_BEGIN>
-	<REFERENCES_END>
-		<REFERENCE_END ID="145" />
-	</REFERENCES_END>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="144" Name="" Kind="2" Expression="" ReferenceIndex="1084" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1229" Name="" Kind="2" Expression="" ReferenceIndex="1205" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="138" />
+					<CONSTRAINTCOLUMN ID="1197" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1084" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="144" FillFactor="0" Comments="">
+		<INDEX ID="1205" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1229" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1085" Name="carts_products" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="550" YPos="10" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1206" Name="components_images" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="842" YPos="275" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="140" Name="cart_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="141" Name="products_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="142" Name="count" Pos="2" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1199" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1200" Name="component_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1201" Name="path" Pos="2" Datatype="602" Type="path" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1202" Name="is_main" Pos="3" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_END>
-		<REFERENCE_END ID="146" />
-		<REFERENCE_END ID="147" />
-	</REFERENCES_END>
-</ENTITY>
-<ENTITY ID="1086" Name="users_favorites" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="590" YPos="130" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
-	<COLUMNS>
-			<COLUMN ID="144" Name="user_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="143" Name="product_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-	</COLUMNS>
-	<REFERENCES_END>
-		<REFERENCE_END ID="149" />
-		<REFERENCE_END ID="150" />
-	</REFERENCES_END>
-</ENTITY>
-<ENTITY ID="1089" Name="reviews" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="290" YPos="380" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
-	<COLUMNS>
-			<COLUMN ID="145" Name="id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="146" Name="user_ud" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="147" Name="order_id" Pos="2" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="148" Name="content" Pos="3" Datatype="25" Type="text" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="149" Name="is_accepted" Pos="4" Datatype="16" Type="bool" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-	</COLUMNS>
-	<REFERENCES_BEGIN>
-		<REFERENCE_BEGIN ID="1099" />
-	</REFERENCES_BEGIN>
-	<REFERENCES_END>
-		<REFERENCE_END ID="151" />
-		<REFERENCE_END ID="152" />
+		<REFERENCE_END ID="1231" />
 	</REFERENCES_END>
 	<CONSTRAINTS>
-			<CONSTRAINT ID="153" Name="" Kind="2" Expression="" ReferenceIndex="1090" FillFactor="0" Comments="" TablespaceID="0">
+			<CONSTRAINT ID="1230" Name="" Kind="2" Expression="" ReferenceIndex="1207" FillFactor="0" Comments="" TablespaceID="0">
 				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="145" />
+					<CONSTRAINTCOLUMN ID="1199" />
 				</CONSTRAINTCOLUMNS>
 		</CONSTRAINT>
 	</CONSTRAINTS>
 	<INDEXES>
-		<INDEX ID="1090" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="153" FillFactor="0" Comments="">
+		<INDEX ID="1207" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1230" FillFactor="0" Comments="">
 			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
 			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
 			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
 		</INDEX>
 	</INDEXES>
 </ENTITY>
-<ENTITY ID="1092" Name="products_images" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="820" YPos="300" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1208" Name="components_specifications" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="1076" YPos="104" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="150" Name="id" Pos="0" Datatype="2950" Type="uuid" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="151" Name="product_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="152" Name="path" Pos="2" Datatype="602" Type="path" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1203" Name="component_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1204" Name="specification_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1205" Name="value" Pos="2" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_END>
-		<REFERENCE_END ID="1100" />
+		<REFERENCE_END ID="1233" />
+		<REFERENCE_END ID="1234" />
 	</REFERENCES_END>
-	<CONSTRAINTS>
-			<CONSTRAINT ID="154" Name="" Kind="2" Expression="" ReferenceIndex="1093" FillFactor="0" Comments="" TablespaceID="0">
-				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="150" />
-				</CONSTRAINTCOLUMNS>
-		</CONSTRAINT>
-	</CONSTRAINTS>
-	<INDEXES>
-		<INDEX ID="1093" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="154" FillFactor="0" Comments="">
-			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
-			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
-			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
-		</INDEX>
-	</INDEXES>
 </ENTITY>
-<ENTITY ID="1094" Name="reviews_images" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="80" YPos="360" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777215" LineColor="8388608" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
+<ENTITY ID="1209" Name="orders_employees" SchemaOID="0" SchemaName="public" OwnerID="0" OwnerName="" TablespaceID="0" XPos="339" YPos="175" Temporary="0" OnCommit="" WithOIDsSpecified="0" WithOIDs="0" FillFactor="0" Inherits="" DelayKeyTblUpdates="0" FillColor="16777200" LineColor="16775416" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" ACL="" >
 	<COLUMNS>
-			<COLUMN ID="1095" Name="id" Pos="0" Datatype="2950" Type="uuid" Width="0" Prec="0" NotNull="1" AutoInc="0" PrimaryKey="1" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="1096" Name="review_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
-			<COLUMN ID="1097" Name="path" Pos="2" Datatype="602" Type="path" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="0" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1206" Name="order_id" Pos="0" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
+			<COLUMN ID="1207" Name="employee_id" Pos="1" Datatype="23" Type="int4" Width="0" Prec="0" NotNull="0" AutoInc="0" PrimaryKey="0" IsFKey="1" DefaultValue="" QuoteDefault="0" Comments=""></COLUMN>
 	</COLUMNS>
 	<REFERENCES_END>
-		<REFERENCE_END ID="1099" />
+		<REFERENCE_END ID="1235" />
+		<REFERENCE_END ID="1237" />
 	</REFERENCES_END>
-	<CONSTRAINTS>
-			<CONSTRAINT ID="1098" Name="" Kind="2" Expression="" ReferenceIndex="1103" FillFactor="0" Comments="" TablespaceID="0">
-				<CONSTRAINTCOLUMNS>
-					<CONSTRAINTCOLUMN ID="1095" />
-				</CONSTRAINTCOLUMNS>
-		</CONSTRAINT>
-	</CONSTRAINTS>
-	<INDEXES>
-		<INDEX ID="1103" Name="_idx_pk" Unique="1" Method="0" Predicate="" TablespaceID="0" ReferenceConstraint="1098" FillFactor="0" Comments="">
-			<INDEXCOLUMNS COMMATEXT="id"></INDEXCOLUMNS>
-			<INDEXSORTS COMMATEXT=""></INDEXSORTS>
-			<INDEXNULLS COMMATEXT=""></INDEXNULLS>
-		</INDEX>
-	</INDEXES>
 </ENTITY>
 </ENTITIES>
 
 <REFERENCES>
-<REFERENCE ID="117" Name="Ref_users_permissions_to_users" SOURCE="1058" DESTINATION="1068" FKIDS="77=101\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="114" />
-<REFERENCE ID="119" Name="Ref_groups_permissions_to_groups" SOURCE="1062" DESTINATION="1067" FKIDS="93=99\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="115" />
-<REFERENCE ID="120" Name="Ref_groups_permissions_to_permissions" SOURCE="1064" DESTINATION="1067" FKIDS="95=100\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="116" />
-<REFERENCE ID="121" Name="Ref_users_permissions_to_permissions" SOURCE="1064" DESTINATION="1068" FKIDS="95=102\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="116" />
-<REFERENCE ID="122" Name="Ref_users_groups_to_groups" SOURCE="1062" DESTINATION="1066" FKIDS="93=98\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="115" />
-<REFERENCE ID="123" Name="Ref_users_groups_to_users" SOURCE="1058" DESTINATION="1066" FKIDS="77=97\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="114" />
-<REFERENCE ID="126" Name="Ref_orders_to_users" SOURCE="1058" DESTINATION="1069" FKIDS="77=104\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="114" />
-<REFERENCE ID="127" Name="Ref_orders_to_users0" SOURCE="1058" DESTINATION="1069" FKIDS="77=105\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="114" />
-<REFERENCE ID="134" Name="Ref_products_tags_to_tags" SOURCE="1076" DESTINATION="1078" FKIDS="128=130\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="132" />
-<REFERENCE ID="136" Name="Ref_products_tags_to_products" SOURCE="1074" DESTINATION="1078" FKIDS="121=131\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="131" />
-<REFERENCE ID="140" Name="Ref_orders_products_to_products" SOURCE="1074" DESTINATION="1080" FKIDS="121=136\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="131" />
-<REFERENCE ID="142" Name="Ref_orders_products_to_orders" SOURCE="1069" DESTINATION="1080" FKIDS="103=135\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="125" />
-<REFERENCE ID="145" Name="Ref_users_carts_to_users" SOURCE="1058" DESTINATION="1083" FKIDS="77=139\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="114" />
-<REFERENCE ID="146" Name="Ref_carts_products_to_users_carts" SOURCE="1083" DESTINATION="1085" FKIDS="138=140\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="144" />
-<REFERENCE ID="147" Name="Ref_carts_products_to_products" SOURCE="1074" DESTINATION="1085" FKIDS="121=141\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="131" />
-<REFERENCE ID="149" Name="Ref_users_favorites_to_users" SOURCE="1058" DESTINATION="1086" FKIDS="77=144\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="114" />
-<REFERENCE ID="150" Name="Ref_users_favorites_to_products" SOURCE="1074" DESTINATION="1086" FKIDS="121=143\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="131" />
-<REFERENCE ID="151" Name="Ref_reviews_to_users" SOURCE="1058" DESTINATION="1089" FKIDS="77=146\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="114" />
-<REFERENCE ID="152" Name="Ref_reviews_to_orders" SOURCE="1069" DESTINATION="1089" FKIDS="103=147\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="125" />
-<REFERENCE ID="1099" Name="Ref_products_images_to_reviews" SOURCE="1089" DESTINATION="1094" FKIDS="145=1096\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="153" />
-<REFERENCE ID="1100" Name="Ref_products_images_to_products" SOURCE="1074" DESTINATION="1092" FKIDS="121=151\n" Direction="0" RefColor="8388608" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="131" />
+<REFERENCE ID="1202" Name="Ref_configurations_components_to_components" SOURCE="1151" DESTINATION="1147" FKIDS="1136=1131\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1201" />
+<REFERENCE ID="1206" Name="Ref_configurations_components_to_configurations" SOURCE="1154" DESTINATION="1147" FKIDS="1145=1130\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1205" />
+<REFERENCE ID="1208" Name="Ref_orders_configurations_to_configurations" SOURCE="1154" DESTINATION="1159" FKIDS="1145=1158\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1205" />
+<REFERENCE ID="1209" Name="Ref_orders_configurations_to_orders" SOURCE="1157" DESTINATION="1159" FKIDS="1149=1159\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1207" />
+<REFERENCE ID="1211" Name="Ref_configurations_to_users" SOURCE="1174" DESTINATION="1154" FKIDS="1169=1146\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1210" />
+<REFERENCE ID="1212" Name="Ref_users_permissions_to_users" SOURCE="1174" DESTINATION="1179" FKIDS="1169=1179\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1210" />
+<REFERENCE ID="1217" Name="Ref_users_groups_to_users" SOURCE="1174" DESTINATION="1187" FKIDS="1169=1186\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1210" />
+<REFERENCE ID="1223" Name="Ref_groups_permissions_to_groups" SOURCE="1196" DESTINATION="1183" FKIDS="1196=1183\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1199" />
+<REFERENCE ID="1224" Name="Ref_groups_permissions_to_permissions" SOURCE="1190" DESTINATION="1183" FKIDS="1190=1183\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1193" />
+<REFERENCE ID="1225" Name="Ref_users_permissions_to_permissions" SOURCE="1190" DESTINATION="1179" FKIDS="1190=1180\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1193" />
+<REFERENCE ID="1226" Name="Ref_users_groups_to_groups" SOURCE="1196" DESTINATION="1187" FKIDS="1196=1187\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1199" />
+<REFERENCE ID="1227" Name="Ref_orders_to_users" SOURCE="1174" DESTINATION="1157" FKIDS="1169=1150\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1210" />
+<REFERENCE ID="1231" Name="Ref_components_images_to_components" SOURCE="1151" DESTINATION="1206" FKIDS="1136=1200\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1201" />
+<REFERENCE ID="1233" Name="Ref_components_specifications_to_components" SOURCE="1151" DESTINATION="1208" FKIDS="1136=1203\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1201" />
+<REFERENCE ID="1234" Name="Ref_components_specifications_to_specifications" SOURCE="1204" DESTINATION="1208" FKIDS="1197=1204\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1229" />
+<REFERENCE ID="1235" Name="Ref_orders_employees_to_users" SOURCE="1174" DESTINATION="1209" FKIDS="1169=1207\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1210" />
+<REFERENCE ID="1237" Name="Ref_orders_employees_to_orders" SOURCE="1157" DESTINATION="1209" FKIDS="1149=1206\n" Direction="0" RefColor="16449525" RefLabelColor="16777215" OnDelete="3" OnUpdate="3" Deferrable="0" MatchType="0" Comments="" Description="" Annotation="" Generate="1" FKConstraint_ID="1207" />
 </REFERENCES>
 
 <NOTES>
