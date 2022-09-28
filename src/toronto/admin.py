@@ -8,6 +8,11 @@ class ComponentImageInLine(admin.TabularInline):
     extra = 0
 
 
+class ComponentInLine(admin.TabularInline):
+    model = models.Component
+    extra = 0
+
+
 @admin.register(models.CustomUser)
 class CustomUserAdmin(admin.ModelAdmin):
     list_display = (
@@ -35,3 +40,13 @@ class ComponentImageAdmin(admin.ModelAdmin):
 @admin.register(models.Specification)
 class SpecificationAdmin(admin.ModelAdmin):
     list_display = ("category", "value")
+
+
+@admin.register(models.Configuration)
+class ConfigurationAdmin(admin.ModelAdmin):
+    list_display = ("name", "user", "summary", "price")
+
+
+@admin.register(models.Order)
+class OrderAdmin(admin.ModelAdmin):
+    list_display = ("id",)

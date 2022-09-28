@@ -24,7 +24,9 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
         error_messages={"unique": _("A user with that phone number already exists.")},
     )
     address = models.CharField(_("address"), max_length=100, blank=True)
+
     date_joined = models.DateTimeField(_("date joined"), default=timezone.now)
+
     is_active = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
 
@@ -127,4 +129,31 @@ class ComponentImage(models.Model):
     )
 
     def __str__(self) -> str:
-        return self.path
+        return f"{self.component} image"
+
+
+class Order(models.Model):
+    ORDER_STATUSES = [("A", "Avaiable"), ("CL", "Closed"), ("CAN", "Canceled")]
+
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, null=False)
+    address = models.CharField(_("address"), null=False, max_length=200)
+    prepaid = models.DecimalField(
+        _("prepaid"), max_digits=8, decimal_places=2, default=0
+    )
+    price = models.DecimalField(_("price"), max_digits=8, decimal_places=2)
+    status = models.CharField(_("status"), max_length=2, )
+
+    date_created = models.DateTimeField(_("date created"), default=timezone.now)
+    date_closed = models.DateTimeField(_("date closed"), null=True)
+    date_canceled = models.DateTimeField(_("date canceled"), null=True)
+
+
+class Configuration(models.Model):
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, null=False)
+    order = models.ForeignKey(Order, on_delete=models.CASCADE, null=True)
+    components = models.ManyToManyField(
+        Component, verbose_name=_("configuration components")
+    )
+    name = models.CharField(_("name"), max_length=150)
+    summary = models.TextField(_("summary"), max_length=400)
+    price = models.DecimalField(max_digits=8, decimal_places=2)

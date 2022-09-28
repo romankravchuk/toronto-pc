@@ -140,6 +140,7 @@ STATIC_ROOT = "/var/www/toronto/static"
 STATICFILES_DIRS = [BASE_DIR / "static"]
 
 MEDIA_ROOT = "src/media/"
+
 MEDIA_URL = "/"
 
 # Default primary key field type
