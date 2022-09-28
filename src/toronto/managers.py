@@ -1,5 +1,7 @@
-from django.contrib.auth.models import BaseUserManager
+from django.contrib.auth.models import BaseUserManager, AbstractBaseUser
 from django.utils.translation import gettext_lazy as _
+
+from phonenumber_field.phonenumber import PhoneNumber
 
 
 class CustomUserManager(BaseUserManager):
@@ -10,7 +12,8 @@ class CustomUserManager(BaseUserManager):
             raise ValueError(_("You must provide a phone number"))
 
         email = self.normalize_email(email)
-        user = self.model(phone=phone, email=email, **extra_fields)
+        phone = PhoneNumber.from_string(phone_number=phone, region="RU").as_e164
+        user: AbstractBaseUser = self.model(phone=phone, email=email, **extra_fields)
         user.set_password(password)
         user.save()
         return user

@@ -3,7 +3,6 @@
 from django.db import migrations, models
 import django.utils.timezone
 import toronto.managers
-import toronto.validators
 
 
 class Migration(migrations.Migration):
@@ -69,7 +68,6 @@ class Migration(migrations.Migration):
                         help_text="Required.",
                         max_length=20,
                         unique=True,
-                        validators=[toronto.validators.UserPhoneValidator()],
                         verbose_name="phone",
                     ),
                 ),
