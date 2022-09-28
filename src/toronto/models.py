@@ -16,7 +16,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     last_name = models.CharField(_("last name"), max_length=150, blank=True)
     email = models.EmailField(_("email address"), unique=True)
     phone = PhoneNumberField(
-        _("phone"),
+        verbose_name=_("phone number"),
         region="RU",
         max_length=20,
         unique=True,
@@ -52,6 +52,27 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
         send_mail(subject, message, from_email, **kwargs)
 
 
+class Specification(models.Model):
+    SPECIFICATION_CATEGORIES = [
+        # TODO: add categories
+        ("MOD", _("Model")),
+        ("SOK", _("Socket")),
+        ("YR", _("Release year")),
+    ]
+
+    category = models.CharField(
+        _("category"), max_length=3, choices=SPECIFICATION_CATEGORIES, null=True
+    )
+    value = models.CharField(_("value"), max_length=100)
+
+    class Meta:
+        verbose_name = _("specification")
+        verbose_name_plural = _("specifications")
+
+    def __str__(self) -> str:
+        return self.value
+
+
 class Component(models.Model):
     CONFIGURATION_CATEGORIES = [
         ("GPU", _("Graphic Card")),
@@ -79,6 +100,9 @@ class Component(models.Model):
     )
     is_avaiable = models.BooleanField(_("is avaiable"), default=False)
     price = models.DecimalField(_("price"), max_digits=8, decimal_places=2, default=0)
+    specifications = models.ManyToManyField(
+        Specification, verbose_name=_("component specification")
+    )
 
     def __str__(self):
         return self.name
@@ -101,3 +125,6 @@ class ComponentImage(models.Model):
         blank=False,
         upload_to=get_directory_path,
     )
+
+    def __str__(self) -> str:
+        return self.path
