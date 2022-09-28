@@ -19,3 +19,8 @@ class CustomUserAdmin(admin.ModelAdmin):
 @admin.register(models.Component)
 class ComponentAdmin(admin.ModelAdmin):
     list_display = ("name", "category", "is_avaiable", "price")
+
+
+@admin.register(models.ComponentImage)
+class ComponentImageAdmin(admin.ModelAdmin):
+    list_display = ("id", "component", "path", "is_main")

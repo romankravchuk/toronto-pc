@@ -8,3 +8,4 @@ Markdown==3.4.1
 phonenumbers==8.12.56
 psycopg2-binary==2.9.3
 python-dotenv==0.21.0
+Pillow==9.2.0

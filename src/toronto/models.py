@@ -1,3 +1,4 @@
+from uuid import uuid4
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
@@ -78,3 +79,25 @@ class Component(models.Model):
     )
     is_avaiable = models.BooleanField(_("is avaiable"), default=False)
     price = models.DecimalField(_("price"), max_digits=8, decimal_places=2, default=0)
+
+    def __str__(self):
+        return self.name
+
+
+class ComponentImage(models.Model):
+    id = models.UUIDField(
+        _("id"), primary_key=True, null=False, blank=False, default=uuid4()
+    )
+    component = models.ForeignKey(Component, on_delete=models.CASCADE, null=False)
+    is_main = models.BooleanField(_("is main"), default=False)
+
+    def get_directory_path(self, *args, **kwargs):
+        filename = f"{uuid4()}.jpg"
+        return f"components/component_{self.component.id}/{filename}"
+
+    path = models.ImageField(
+        _("image"),
+        null=False,
+        blank=False,
+        upload_to=get_directory_path,
+    )
