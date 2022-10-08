@@ -1,0 +1,27 @@
+.configurations {
+    margin: rem(20) 0;
+
+    &__container {}
+
+    &__title {
+        max-width: 60%;
+        margin: 0 auto rem(20) auto;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: rem(25);
+        column-gap: rem(15);
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__card {}
+}

@@ -1,0 +1,151 @@
+@use "sass:math";
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=PT+Sans:wght@400;700&display=swap');
+@import "./_helpers.scss";
+
+// =============================================================================================
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+    all: unset;
+    display: revert;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+button {
+    cursor: revert;
+}
+
+ol,
+ul,
+menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input,
+textarea {
+    -webkit-user-select: auto;
+}
+
+textarea {
+    white-space: revert;
+}
+
+meter {
+    -webkit-appearance: revert;
+    appearance: revert;
+}
+
+::placeholder {
+    color: unset;
+}
+
+:where([hidden]) {
+    display: none;
+}
+
+:where([contenteditable]:not([contenteditable="false"])) {
+    -moz-user-modify: read-write;
+    -webkit-user-modify: read-write;
+    overflow-wrap: break-word;
+    -webkit-line-break: after-white-space;
+    -webkit-user-select: auto;
+}
+
+:where([draggable="true"]) {
+    -webkit-user-drag: element;
+}
+
+// =============================================================================================
+$fontFamily: 'PT Sans', sans-serif;
+$fontSize: rem(16);
+
+$minWidth: 320;
+$maxWidth: 1920;
+$maxWidthContainer: 1170;
+$containerPadding: 30;
+
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+$pc: em($containerWidth);
+$table: em(991.98);
+$mobile: em(767.98);
+$mobileSmall: em(479.98);
+
+$logoFont: 'Comforter Brush', cursive;
+$primaryColor: #f59e0b;
+
+// =============================================================================================
+html,
+body {
+    height: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: $fontFamily;
+
+    &._lock {
+        overflow: hidden;
+    }
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    >main {
+        flex: 1 1 auto;
+    }
+
+    >* {
+        min-width: 0;
+    }
+
+    @media (max-width: $mobile) {
+        padding: rem(70) 0 0 0;
+    }
+}
+
+[class*="__container"] {
+    max-width: rem($maxWidthContainer);
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0 rem(math.div($containerPadding, 2));
+
+    @media (max-width: $pc) {
+        max-width: rem(970);
+    }
+
+    @media (max-width: $table) {
+        max-width: rem(750);
+    }
+
+    @media (max-width: $mobile) {
+        max-width: none;
+    }
+}
+
+@import "common";
+
+@import "header";
+@import "footer";
+
+@import "sections";

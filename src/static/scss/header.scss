@@ -1,0 +1,61 @@
+.header {
+    background: #000;
+    color: white;
+    padding: rem(5) 0;
+
+    @media (max-width: $mobile) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: rem(15);
+        min-height: rem(60);
+    }
+
+    &__logo {
+
+        @media (max-width: $mobile) {
+            margin-right: auto;
+            z-index: 5;
+        }
+    }
+
+    &__menu {
+        flex: 1 1 auto;
+
+        @media (max-width: $mobile) {
+            flex: 0 0 auto;
+            order: 3;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: rem(15);
+
+        @media (max-width: $mobile) {
+            z-index: 5;
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: rem(5);
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+}

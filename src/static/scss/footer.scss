@@ -1,0 +1,21 @@
+.footer {
+    background: #000;
+    color: white;
+    padding: rem(5) 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: $mobile) {
+            flex-direction: column;
+        }
+    }
+
+    &__menu {
+        flex: 1 1 auto;
+    }
+
+    &__socials {}
+}
