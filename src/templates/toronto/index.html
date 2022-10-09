@@ -1,6 +1,72 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
+<section class="welcome">
+    <div class="welcome__slider slider-welcome swiper">
+        <div class="slider-welcome__wrapper swiper-wrapper">
+            <div class="slider-welcome__slide swiper-slide">
+                <div class="slider-welcome__image" style="background-image: url({% static 'img/bg.jpg' %});"></div>
+                <div class="slider-welcome__container">
+                    <div class="slider-welcome__body">
+                        <h2 class="slider-welcome__title">Upgrade center</h2>
+                        <p class="slider-welcome__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatibus consequatur
+                            nisi illo qui non blanditiis ab. Ratione reprehenderit exercitationem excepturi! Corrupti,
+                            modi. Nesciunt asperiores officiis autem illo, quisquam excepturi?
+                        </p>
+                        <a href="#" class="slider-welcome__button button">For Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-welcome__slide swiper-slide">
+                <div class="slider-welcome__image" style="background-image: url({% static 'img/bg2.jpg' %});"></div>
+                <div class="slider-welcome__container">
+                    <div class="slider-welcome__body">
+                        <h2 class="slider-welcome__title">Giveaway from TorontoPC</h2>
+                        <p class="slider-welcome__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem iste repellat eos hic
+                            voluptates cum, nobis ratione reiciendis ullam minus totam, rerum dolore iure fugit aperiam
+                            nostrum ad ipsum quia?
+                        </p>
+                        <a href="#" class="slider-welcome__button button">For Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-welcome__slide swiper-slide">
+                <div class="slider-welcome__image" style="background-image: url({% static 'img/bg3.jpg' %});"></div>
+                <div class="slider-welcome__container">
+                    <div class="slider-welcome__body">
+                        <h2 class="slider-welcome__title">New Discounts</h2>
+                        <p class="slider-welcome__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores vero enim, maxime eligendi
+                            voluptate consequatur autem, architecto nihil, consequuntur facilis nemo? Dolor, facilis.
+                            Natus sit ea provident recusandae deserunt totam.
+                        </p>
+                        <a href="#" class="slider-welcome__button button">For Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-welcome__pagination swiper-pagination"></div>
+        <div class="slider-welcome__arrow swiper-button-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left"
+                viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <polyline points="15 6 9 12 15 18"></polyline>
+            </svg>
+        </div>
+        <div class="slider-welcome__arrow swiper-button-next">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
+                viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <polyline points="9 6 15 12 9 18"></polyline>
+            </svg>
+        </div>
+    </div>
+</section>
 <section class="configurations">
     <div class="configurations__container">
         <h2 class="configurations__title title">

@@ -191,7 +191,8 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: rem(20);
+        column-gap: rem(20);
+        row-gap: rem(10);
         font-size: rem(18);
     }
 
@@ -270,5 +271,114 @@
 
     &__button {
         flex: 0 0 100%;
+    }
+}
+
+.slider-welcome {
+    &__wrapper {}
+
+    &__slide {
+        position: relative;
+        height: rem(800);
+        display: flex;
+    }
+
+    &__image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background: no-repeat center / cover;
+    }
+
+    &__container {
+        z-index: 5;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: rem(20);
+        padding: rem(10) rem(30);
+    }
+
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 150%;
+        font-size: rem(24);
+        font-weight: bold;
+    }
+
+    &__text {
+        padding: 0 rem(20);
+        text-align: center;
+        max-width: $mobile;
+        line-height: 150%;
+        font-size: rem(18);
+
+        @media (max-width: $mobile) {
+            padding: 0;
+        }
+    }
+
+    &__button {
+        align-self: center;
+        width: 40%;
+
+        @media (max-width: $mobile) {
+            width: 70%;
+        }
+
+        @media (max-width: $mobileSmall) {
+            width: 100%;
+        }
+    }
+}
+
+.swiper {
+    &-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-bullet {
+            width: rem(30);
+            height: rem(5);
+            border-radius: 0;
+            background: rgba(255, 255, 255, 0.7);
+
+            &-active {
+                background: $primaryColor;
+            }
+        }
+    }
+
+    &-button {
+
+        &-next,
+        &-prev {
+            width: rem(50);
+            color: rgba(255, 255, 255, 0.7);
+            transition: all 0.3s ease 0s;
+
+            @media (max-width: $mobile) {
+                display: none;
+            }
+
+            &:hover {
+                color: $primaryColor;
+            }
+
+            &::after {
+                content: "";
+            }
+        }
     }
 }

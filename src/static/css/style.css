@@ -290,7 +290,8 @@ body._lock {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1.25rem;
+  column-gap: 1.25rem;
+  row-gap: 0.625rem;
   font-size: 1.125rem;
 }
 .socials__link {
@@ -360,6 +361,97 @@ body._lock {
 }
 .card__button {
   flex: 0 0 100%;
+}
+
+.slider-welcome__slide {
+  position: relative;
+  height: 50rem;
+  display: flex;
+}
+.slider-welcome__image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: no-repeat center/cover;
+}
+.slider-welcome__container {
+  z-index: 5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.slider-welcome__body {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 1.25rem;
+  padding: 0.625rem 1.875rem;
+}
+.slider-welcome__title {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 150%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.slider-welcome__text {
+  padding: 0 1.25rem;
+  text-align: center;
+  max-width: 47.99875em;
+  line-height: 150%;
+  font-size: 1.125rem;
+}
+@media (max-width: 47.99875em) {
+  .slider-welcome__text {
+    padding: 0;
+  }
+}
+.slider-welcome__button {
+  align-self: center;
+  width: 40%;
+}
+@media (max-width: 47.99875em) {
+  .slider-welcome__button {
+    width: 70%;
+  }
+}
+@media (max-width: 29.99875em) {
+  .slider-welcome__button {
+    width: 100%;
+  }
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-pagination-bullet {
+  width: 1.875rem;
+  height: 0.3125rem;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+.swiper-pagination-bullet-active {
+  background: #f59e0b;
+}
+.swiper-button-next, .swiper-button-prev {
+  width: 3.125rem;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease 0s;
+}
+@media (max-width: 47.99875em) {
+  .swiper-button-next, .swiper-button-prev {
+    display: none;
+  }
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  color: #f59e0b;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+  content: "";
 }
 
 .header {
@@ -437,12 +529,15 @@ body._lock {
 .footer__menu {
   flex: 1 1 auto;
 }
+.welcome {
+  margin-bottom: 1.875rem;
+}
 .configurations {
   margin: 1.25rem 0;
 }
 .configurations__title {
   max-width: 60%;
-  margin: 0 auto 1.25rem auto;
+  margin: 0 auto 2.5rem auto;
 }
 .configurations__list {
   display: flex;
@@ -450,7 +545,7 @@ body._lock {
   justify-content: center;
   align-items: center;
   row-gap: 1.5625rem;
-  column-gap: 0.9375rem;
+  column-gap: 3.125rem;
 }
 .configurations__item {
   display: flex;

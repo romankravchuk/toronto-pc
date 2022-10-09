@@ -1,3 +1,9 @@
+.welcome {
+    margin-bottom: rem(30);
+
+    &__slider {}
+}
+
 .configurations {
     margin: rem(20) 0;
 
@@ -5,7 +11,7 @@
 
     &__title {
         max-width: 60%;
-        margin: 0 auto rem(20) auto;
+        margin: 0 auto rem(40) auto;
     }
 
     &__list {
@@ -14,7 +20,7 @@
         justify-content: center;
         align-items: center;
         row-gap: rem(25);
-        column-gap: rem(15);
+        column-gap: rem(50);
     }
 
     &__item {
