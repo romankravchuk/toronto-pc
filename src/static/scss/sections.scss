@@ -18,7 +18,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         row-gap: rem(25);
         column-gap: rem(50);
     }
@@ -30,4 +30,36 @@
     }
 
     &__card {}
+}
+
+.products {
+    margin: rem(20) 0 rem(40) 0;
+
+    &__container {}
+
+    &__title {
+        margin-bottom: rem(40);
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: rem(25);
+        column-gap: rem(50);
+    }
+}
+
+.services {
+    margin: rem(20) 0 rem(40) 0;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: rem(20);
+        margin: rem(20) 0;
+    }
 }
