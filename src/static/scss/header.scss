@@ -37,6 +37,7 @@
     }
 
     &__actions {
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -48,14 +49,19 @@
     }
 
     &__button {
+        z-index: 5;
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: rem(5);
         transition: all 0.3s ease 0s;
+        font-size: rem(25);
 
-        &:hover {
+        & svg:hover {
             color: $primaryColor;
         }
     }
+
+    &__profile {}
 }

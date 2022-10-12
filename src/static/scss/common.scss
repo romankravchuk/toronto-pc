@@ -186,6 +186,7 @@
 }
 
 .socials {
+    padding: rem(10) 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +203,7 @@
         flex-wrap: wrap;
         column-gap: rem(20);
         row-gap: rem(10);
-        font-size: rem(18);
+        font-size: rem(22);
     }
 
     &__link {
@@ -413,6 +414,22 @@
     }
 }
 
+.cart-badge {
+    display: inline-flex;
+    position: absolute;
+    top: rem(-8);
+    right: rem(-8);
+    justify-content: center;
+    align-items: center;
+    width: rem(20);
+    height: rem(20);
+    font-weight: bold;
+    font-size: rem(10);
+    background: $primaryColor;
+    border-radius: rem(9999);
+    border: rem(2) solid white;
+}
+
 .service {
     position: relative;
     width: rem(300);
@@ -423,8 +440,8 @@
     background: no-repeat center / cover;
 
     @media (max-width: $mobileSmall) {
-        width: rem(200);
-        height: rem(200);
+        width: rem(250);
+        height: rem(250);
     }
 
     &__shade {
@@ -458,5 +475,57 @@
 
     &__actions {
         z-index: 3;
+    }
+}
+
+.menu-profile {
+    padding: rem(15) rem(15);
+    display: none;
+    gap: rem(10);
+    position: absolute;
+    top: rem(35);
+    left: rem(-100);
+    z-index: 4;
+    font-size: rem(20);
+    box-shadow: 0px rem(10) rem(22) 0px rgba($color: #000, $alpha: 0.5);
+    border-radius: rem(20);
+    background-color: rgba($color: #fff, $alpha: 0.8);
+    color: #000;
+
+    &._active {
+        display: flex;
+    }
+
+    &__right {}
+
+    &__left {
+        font-weight: bold;
+
+        & li {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__left,
+    &__right {
+        & ul {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: rem(10);
+        }
+    }
+
+    &::before {
+        z-index: 1;
+        content: "";
+        position: absolute;
+        top: rem(-20);
+        right: rem(22);
+        border: rem(10) solid;
+        border-color: transparent transparent rgba($color: #fff, $alpha: 0.8) transparent;
     }
 }

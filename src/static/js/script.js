@@ -9,6 +9,15 @@ if (iconMenu) {
     });
 }
 
+const iconUser = document.querySelector('#menu-profile');
+
+if (iconUser) {
+    const menuProfile = document.querySelector(".menu-profile");
+    iconUser.addEventListener("click", (e) => {
+        menuProfile.classList.toggle('_active');
+    })
+}
+
 const swiper = new Swiper('.slider-welcome', {
     centeredSlides: true,
     effect: "fade",

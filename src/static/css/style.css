@@ -282,6 +282,7 @@ body._lock {
 }
 
 .socials {
+  padding: 0.625rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,7 +300,7 @@ body._lock {
   flex-wrap: wrap;
   column-gap: 1.25rem;
   row-gap: 0.625rem;
-  font-size: 1.125rem;
+  font-size: 1.375rem;
 }
 .socials__link {
   display: flex;
@@ -482,6 +483,22 @@ body._lock {
   content: "";
 }
 
+.cart-badge {
+  display: inline-flex;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  font-weight: bold;
+  font-size: 0.625rem;
+  background: #f59e0b;
+  border-radius: 624.9375rem;
+  border: 0.125rem solid white;
+}
+
 .service {
   position: relative;
   width: 18.75rem;
@@ -493,8 +510,8 @@ body._lock {
 }
 @media (max-width: 29.99875em) {
   .service {
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 15.625rem;
+    height: 15.625rem;
   }
 }
 .service__shade {
@@ -524,6 +541,46 @@ body._lock {
 }
 .service__actions {
   z-index: 3;
+}
+
+.menu-profile {
+  padding: 0.9375rem 0.9375rem;
+  display: none;
+  gap: 0.625rem;
+  position: absolute;
+  top: 2.1875rem;
+  left: -6.25rem;
+  z-index: 4;
+  font-size: 1.25rem;
+  box-shadow: 0px 0.625rem 1.375rem 0px rgba(0, 0, 0, 0.5);
+  border-radius: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+.menu-profile._active {
+  display: flex;
+}
+.menu-profile__left {
+  font-weight: bold;
+}
+.menu-profile__left li:hover {
+  text-decoration: underline;
+}
+.menu-profile__left ul, .menu-profile__right ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.menu-profile::before {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: -1.25rem;
+  right: 1.375rem;
+  border: 0.625rem solid;
+  border-color: transparent transparent rgba(255, 255, 255, 0.8) transparent;
 }
 
 .header {
@@ -562,6 +619,7 @@ body._lock {
   }
 }
 .header__actions {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -573,16 +631,18 @@ body._lock {
   }
 }
 .header__button {
+  z-index: 5;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.3125rem;
   transition: all 0.3s ease 0s;
+  font-size: 1.5625rem;
 }
-.header__button:hover {
+.header__button svg:hover {
   color: #f59e0b;
 }
-
 .footer {
   background: #000;
   color: white;
