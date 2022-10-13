@@ -63,3 +63,14 @@
         margin: rem(20) 0;
     }
 }
+
+.reviews {
+    padding: rem(30) 0;
+    background: #000;
+
+    &__container {}
+
+    &__title {
+        color: white;
+    }
+}

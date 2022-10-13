@@ -238,8 +238,6 @@
     flex-direction: column;
     border-radius: rem(20);
     overflow: hidden;
-    -webkit-box-shadow: 0px 10px 22px 0px rgba(34, 60, 80, 0.3);
-    -moz-box-shadow: 0px 10px 22px 0px rgba(34, 60, 80, 0.3);
     box-shadow: 0px 10px 22px 0px rgba(34, 60, 80, 0.3);
 
     @media (max-width: $pc) {
@@ -438,6 +436,8 @@
     border-radius: rem(25);
     overflow: hidden;
     background: no-repeat center / cover;
+    box-shadow: 0px 10px 22px 0px rgba(34, 60, 80, 0.3);
+
 
     @media (max-width: $mobileSmall) {
         width: rem(250);
@@ -478,54 +478,72 @@
     }
 }
 
-.menu-profile {
-    padding: rem(15) rem(15);
-    display: none;
-    gap: rem(10);
-    position: absolute;
-    top: rem(35);
-    left: rem(-100);
-    z-index: 4;
-    font-size: rem(20);
-    box-shadow: 0px rem(10) rem(22) 0px rgba($color: #000, $alpha: 0.5);
-    border-radius: rem(20);
-    background-color: rgba($color: #fff, $alpha: 0.8);
-    color: #000;
+.slider-reviews {
+    padding: rem(10) rem(15);
 
-    &._active {
+    &__wrapper {
         display: flex;
+        min-width: 0;
     }
 
-    &__right {}
+    &__slide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
-    &__left {
+.review-card {
+    max-width: rem(600);
+    padding: rem(20) rem(40);
+    border-radius: rem(25);
+    border: rem(1) solid #fffa;
+    color: #fff;
+    box-shadow: 0px rem(0) rem(15) 0px rgba($color: #fff, $alpha: 0.7);
+
+    &__top {
+        gap: rem(10);
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(16);
+    }
+
+    &__body {
+        line-height: 150%;
+    }
+
+    &__text {
+        font-weight: lighter;
+    }
+
+    &__image {
+        width: rem(40);
+        height: rem(40);
+        // w-10 h-10 rounded-full
+        border-radius: rem(9999);
+    }
+
+    &__user {
+        // space-y-1 font-medium dark:text-white
+        margin-top: rem(2);
         font-weight: bold;
-
-        & li {
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+        color: $primaryColor;
     }
 
-    &__left,
-    &__right {
-        & ul {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            flex-direction: column;
-            gap: rem(10);
-        }
+
+    &__date {
+        margin-bottom: rem(8);
     }
 
-    &::before {
-        z-index: 1;
-        content: "";
-        position: absolute;
-        top: rem(-20);
-        right: rem(22);
-        border: rem(10) solid;
-        border-color: transparent transparent rgba($color: #fff, $alpha: 0.8) transparent;
+    &__date-joined {
+        // block text-sm text-gray-500 dark:text-gray-400
+        display: block;
+        font-weight: normal;
+        color: #fff;
+    }
+
+    &__button {
+        margin-top: rem(16);
     }
 }

@@ -9,16 +9,7 @@ if (iconMenu) {
     });
 }
 
-const iconUser = document.querySelector('#menu-profile');
-
-if (iconUser) {
-    const menuProfile = document.querySelector(".menu-profile");
-    iconUser.addEventListener("click", (e) => {
-        menuProfile.classList.toggle('_active');
-    })
-}
-
-const swiper = new Swiper('.slider-welcome', {
+const swiperWelcome = new Swiper('.slider-welcome', {
     centeredSlides: true,
     effect: "fade",
     loop: true,
@@ -27,7 +18,7 @@ const swiper = new Swiper('.slider-welcome', {
         disableOnInteraction: false,
     },
     pagination: {
-        el: '.swiper-pagination',
+        el: '.slider-welcome__pagination.swiper-pagination',
         clickable: true,
         renderBullet: function (index, className) {
             return `<span class="${className}"></span>`;
@@ -36,5 +27,19 @@ const swiper = new Swiper('.slider-welcome', {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+    },
+});
+
+const swiperReviews = new Swiper('.slider-reviews', {
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".slider-reviews__arrow.swiper-button-next",
+        prevEl: ".slider-reviews__arrow.swiper-button-prev",
     },
 });

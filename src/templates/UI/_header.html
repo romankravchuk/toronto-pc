@@ -15,45 +15,13 @@
             </nav>
         </div>
         <div class="header__actions">
-            <button type="button" class="header__button">
+            <a class="header__button">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <!-- <div class="cart-badge">2</div> -->
-            </button>
-            <button id="menu-profile" type="button" class="header__button">
+            </a>
+            <a class="header__button">
                 <i class="fa-solid fa-circle-user"></i>
-            </button>
-            <div class="header__profile menu-profile">
-                <div class="menu-profile__right">
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-desktop"></i>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-laptop"></i>
-                        </li>
-                        {% if user.is_authenticated %}
-                        <li>
-                            <i class="fa-solid fa-right-from-bracket"></i>
-                        </li>
-                        {% else %}
-                        <li>
-                            <i class="fa-solid fa-right-to-bracket"></i>
-                        </li>
-                        {% endif %}
-                    </ul>
-                </div>
-                <div class="menu-profile__left">
-                    <ul>
-                        <li><a href="#">Orders</a></li>
-                        <li><a href="#">Configurations</a></li>
-                        {% if user.is_authenticated %}
-                        <li><a href="#">Log Out</a></li>
-                        {% else %}
-                        <li><a href="#">Log In</a></li>
-                        {% endif %}
-                    </ul>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
 </header>
